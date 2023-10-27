@@ -1,0 +1,66 @@
+.book-Lounge{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: red; */
+    display: flex;
+    padding: 5vw 2vh;
+}
+.left-lounge{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+.right-lounge{
+    padding-top: 4vh;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.lounge-img-box{
+    width: 60%;
+    height: 60%;
+    /* background-color: green; */
+    box-shadow: 5px 5px 5px 5px rgb(125, 120, 120);
+}
+.lounge-img-box>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+.right-lounge>h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.right-lounge>h1 span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.right-lounge>p{
+    margin-top: 6vh;
+    width: 80%;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 30px;
+}
+.right-lounge>h2{
+    margin-right: 2vw;
+    text-align: end;
+}
+@media screen and (max-width: 600px){
+    .book-Lounge{
+        flex-direction: column;
+    }
+    .left-lounge{
+        width: 100%;
+    }
+    .right-lounge{
+        width: 100%;
+    }
+    .lounge-img-box{
+        width: 90%;
+    
+    }
+}
